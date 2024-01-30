@@ -1,8 +1,6 @@
 Task: 
 Create a language model that can predict what genre a song is based on its lyrics.
 
-Plan/Considerations: 
-
 Structure:
   *Tokenize lyrics by words (get each word in the lyrics as a different token)
 
