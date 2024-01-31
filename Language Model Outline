@@ -28,6 +28,6 @@ Structure:
 
   algorithm to calculate tfidf (tf * idf) of a word -> (tf_dict_jazz[word]/totalWords)*log(docNum/df)       explanation: (number of times the term appears in the document/total number of terms in the document) * log(total number of documents/number of documents containing the word)
   
-  Now add each tfidf to another dictionary.
+  Now add tfidf for each word to a document for the genre. There will be a separate tfidf dictionary for each genre.
 
   Predicting method:
